@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/ciao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="220dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="scrivi qui il numero"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="140dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_number"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

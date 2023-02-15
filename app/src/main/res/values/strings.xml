@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">eserciziocoroutine</string>
+    <string name="plus">+1</string>
+    <string name="reset">reset</string>
+    <string name="ciao">ciao Claudia \nscrivi un numero qui sotto</string>
+    <string name="text_input">scrivi un numero qui</string>
+</resources>
